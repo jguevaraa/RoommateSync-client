@@ -1,0 +1,8 @@
+.header {
+ 
+  border: 10px solid rgb(212, 212, 212);
+
+  display: flex;
+  flex-direction: row;
+
+}

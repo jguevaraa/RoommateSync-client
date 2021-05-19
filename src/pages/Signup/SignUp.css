@@ -1,0 +1,51 @@
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+.signin-block{
+    background: #DE6262;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #FFB88C, #DE6262);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #FFB88C, #DE6262); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+float:left;
+width:100%;
+height: 700%;
+padding : 50px 0;
+}
+
+
+.signup{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+
+
+.signup-option {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 500px;
+    background-color: white;
+    margin: auto;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.Signin-block{
+
+        background: #DE6262;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #FFB88C, #DE6262);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FFB88C, #DE6262); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    float:left;
+    width:100%;
+    padding : 50px 0;
+
+
+}
+
+.imagefront{
+
+width: 100%;
+    height: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

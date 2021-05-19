@@ -1,0 +1,19 @@
+.header {
+ 
+  border: 10px solid rgb(212, 212, 212);
+
+  display: flex;
+  flex-direction: row;
+
+}
+
+.Home {
+  background-color: #d45d2e;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}

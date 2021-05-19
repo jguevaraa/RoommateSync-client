@@ -1,0 +1,175 @@
+.user-card {
+    width: 151px;
+    border: 1px solid rgb(212, 212, 212);
+    margin: 6px 2px 5px 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-card:hover img {
+    opacity: 0.3;
+}
+
+.user-card:hover .details-btn {
+    display: block;
+}
+
+.img-card-container {
+    overflow: hidden;
+    width: 150px;
+    height: 180px;
+    position: relative;
+}
+
+.img-card-container img {
+    max-width: 100%;
+    transition: all 0.3s ease-out;
+}
+
+.details-btn {
+    display: none;
+    color: black;
+    position: absolute;
+    top: 80px;
+    left: 29px;
+    font-size: 11px;
+    border: 2px solid black;
+    padding: 9px 16px;
+}
+
+.details-btn:hover {
+    cursor: pointer;
+}
+
+.user-card-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 59px;
+    text-align: center;
+    padding: 0px 8px;
+}
+
+.user-card-title h5 {
+    margin: 0px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
+
+/* user DETAILS */
+
+.user-details-container {
+    margin-top: 20px
+}
+
+.user-details-text {
+    display: flex;
+    font-size: 12px;
+}
+
+.instructions-text {
+    font-size: 12px;
+}
+
+.user-details-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-details-name {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.user-details-subtitle {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.user-details-img {
+    height: 350px;
+    width: auto;
+    margin-left: auto;
+    padding-left: 15px;
+}
+
+
+
+
+.add-btn {
+    border: 1px solid black;
+    height: 32.5px;
+    margin-top: 2px;
+    padding: 6px 15px 0px 15px;
+    color: white;
+    background-color: black;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none; 
+    color: white;
+    cursor: pointer;
+
+}
+
+/* RESPONSIVE */
+
+@media (max-width:1325px) {
+    
+    .user-card {
+        width: 126px;
+        margin: 6px 2px 5px 2px;
+    }
+
+    .img-card-container {
+        width: 125px;
+        height: 160px;
+    }
+
+    .user-card-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 59.5px;
+        text-align: center;
+        padding: 0px 8px;
+    }
+    
+    .user-card-title h5 {
+        font-size: 11px;
+    }
+
+}
+
+
+@media (max-width:420px) {
+
+    .details-btn {
+        top: 62px;
+        left: 17px;
+    }
+
+    .user-details-title {
+        display: block;
+        text-align: center;
+    }
+
+    .user-details-img {
+        height: 200px;
+    }
+
+    .add-meal-plan {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+}
